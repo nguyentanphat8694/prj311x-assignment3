@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/8.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GroupController">
+    <children>
+        <Label layoutX="22.0" layoutY="20.0" text="Enter group name " />
+        <TextField fx:id="iptGroupSearch" layoutX="150.0" layoutY="16.0" prefWidth="200.0" />
+        <Button layoutX="370.0" layoutY="16.0" mnemonicParsing="false" onAction="#onSearch" prefWidth="80.0" text="Search" />
+        <ListView fx:id="lstGroup" layoutX="21.0" layoutY="59.0" prefHeight="220.0" prefWidth="200.0" />
+        <Label layoutX="244.0" layoutY="78.0" text="Enter group name" />
+        <TextField fx:id="iptGroupName" layoutX="244.0" layoutY="110.0" prefWidth="182.0" />
+        <Button layoutX="244.0" layoutY="162.0" mnemonicParsing="false" onAction="#onSave" text="Save" />
+        <Button layoutX="305.0" layoutY="162.0" mnemonicParsing="false" onAction="#onUpdate" text="Update" />
+        <Button layoutX="380.0" layoutY="162.0" mnemonicParsing="false" onAction="#onDelete" text="Delete" />
+        <Button layoutX="390.0" layoutY="253.0" mnemonicParsing="false" onAction="#onClose" prefWidth="60.0" text="Close" />
+    </children>
+</AnchorPane>

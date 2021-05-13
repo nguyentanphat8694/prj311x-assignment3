@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ContactController">
+    <children>
+        <Label layoutX="12.0" layoutY="14.0" text="Filter by group" />
+        <ComboBox fx:id="cbGroup" layoutX="118.0" layoutY="10.0" onAction="#onGroupChange" prefWidth="120.0" />
+        <Label layoutX="257.0" layoutY="14.0" text="Enter contact information" />
+        <TextField fx:id="iptSearch" layoutX="436.0" layoutY="10.0" />
+        <Button fx:id="btnSearch" layoutX="626.0" layoutY="10.0" mnemonicParsing="false" onAction="#onSearchContact" text="Search" />
+        <TableView fx:id="tbContact" layoutX="24.0" layoutY="48.0" prefHeight="300.0" prefWidth="652.0">
+            <columns>
+                <TableColumn fx:id="clFirstName" text="First Name" />
+                <TableColumn fx:id="clLastName" text="Last Name" />
+                <TableColumn fx:id="clPhone" prefWidth="104.0" text="Phone" />
+                <TableColumn fx:id="clEmail" prefWidth="161.0" text="Email" />
+                <TableColumn fx:id="clBirthDate" prefWidth="107.0" text="Birth Date" />
+                <TableColumn fx:id="clGroupName" prefWidth="120.0" text="Group Name" />
+            </columns>
+        </TableView>
+        <Button fx:id="btnDelete" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#onDeleteContact" text="Delete" />
+        <Button fx:id="btnUpdate" layoutX="90.0" layoutY="361.0" mnemonicParsing="false" onAction="#onUpdateContact" text="Update" />
+        <Button fx:id="btnAdd" layoutX="170.0" layoutY="361.0" mnemonicParsing="false" onAction="#onAddContact" text="Add" />
+        <Button fx:id="btnManageGroup" layoutX="560.0" layoutY="361.0" mnemonicParsing="false" onAction="#onManageGroup" text="Manage groups" />
+    </children>
+</AnchorPane>

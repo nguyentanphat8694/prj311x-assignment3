@@ -1,0 +1,6 @@
+John           :Snow           :84987234123:john@gmail.com           :12-31-1987:Family    
+Adam           :Smith          :84980720100:adam.smithn@gmail.com    :1990-07-22:Friend    
+An             :Ha             :84123098345:AnHa@gmail.com           :0017-08-31:Friend    
+Minh           :Nguyen         :775623152 :minhHoang@gmail.com      :0167-02-10:Colleagues
+Johnathan      :Nguyen         :8564795222:jonathan@yahoo.com       :0196-02-10:Members   
+aa             :bbb            :123456789 :asas@gmail.com           :2021-02-09:Family    
